@@ -132,6 +132,18 @@ Output goes to `/dist` — fully static, deploy anywhere.
 
 ---
 
+## Screenshots 
+
+1. Landing page
+   <img width="1408" height="629" alt="image" src="https://github.com/user-attachments/assets/ff576273-c293-4271-ba46-421e31ad8151" />
+   <img width="1445" height="715" alt="image" src="https://github.com/user-attachments/assets/021613c2-1944-4033-b010-84e25b8a8cfe" />
+   <img width="1419" height="778" alt="image" src="https://github.com/user-attachments/assets/f763cf8a-d52c-4b4b-89d0-65f94f3f0578" />
+
+2. The product
+   <img width="1413" height="828" alt="image" src="https://github.com/user-attachments/assets/6e2809fa-d9d3-4901-badc-86e29ec22cba" />
+
+---
+
 ## Links
 
 - **Live demo** — [driftline-v85g.vercel.app](https://driftline-v85g.vercel.app)
