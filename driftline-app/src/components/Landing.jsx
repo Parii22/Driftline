@@ -2,6 +2,9 @@ import React, { useMemo } from 'react';
 import JourneyCurve from './JourneyCurve';
 import { sentimentColor } from '../hooks/journeyUtils';
 import { seed } from '../data/seed';
+import Features from './sections/Features';
+import Pricing from './sections/Pricing';
+import SiteFooter from './sections/SiteFooter';
 
 export default function Landing({ onLaunch }) {
   const demo = seed.personas[0].steps;
@@ -37,6 +40,12 @@ export default function Landing({ onLaunch }) {
           </div>
         </div>
       </header>
+
+      <Features />
+
+      <Pricing tiers={tiers} onCta={() => onLaunch && onLaunch()} />
+
+      <SiteFooter />
     </div>
   );
 }
