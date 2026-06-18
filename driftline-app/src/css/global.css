@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&display=swap');
+
+:root{
+  --ink:#14172E; --ink2:#23284A; --fog:#F4F5F1; --paper:#fff;
+  --coral:#FF5470; --amber:#FFB454; --tide:#2BD9B0; --crim:#FF2E55;
+  --mut:rgba(20,23,46,.55); --line:rgba(20,23,46,.12);
+  --disp:'Fraunces', Georgia, serif;
+  --ui:'Inter', system-ui, -apple-system, sans-serif;
+  --mono:ui-monospace, 'SF Mono', Menlo, monospace;
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--ui)}
+button{font:inherit;cursor:pointer;border:none;background:none}
+input,select{font:inherit}
+i{font-style:normal;color:var(--tide)}
+
+/* minimal reset to make the Driftline component display nicely */
+html,body,#root{height:100%;}
+body{margin:0;font-family:Inter, system-ui, -apple-system, sans-serif;background:#f6f7f8}
+.app{min-height:100vh}
+
+/* ensure SVG scales inside hero */
+.heroCurve svg{width:100%;height:auto}
